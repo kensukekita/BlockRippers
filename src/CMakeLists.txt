@@ -84,7 +84,11 @@ add_dependencies(PaymentGateService version)
 add_dependencies(P2P version)
 
 set_property(TARGET ConnectivityTool PROPERTY OUTPUT_NAME "connectivity_tool")
+<<<<<<< HEAD
 set_property(TARGET Daemon PROPERTY OUTPUT_NAME "BlockRippersd")
+=======
+set_property(TARGET Daemon PROPERTY OUTPUT_NAME "BlockRippersCoind")
+>>>>>>> 743b5f48e1b914053415a0a0bacef84f8d56d432
 set_property(TARGET SimpleWallet PROPERTY OUTPUT_NAME "simplewallet")
 set_property(TARGET PaymentGateService PROPERTY OUTPUT_NAME "walletd")
 set_property(TARGET Miner PROPERTY OUTPUT_NAME "miner")
