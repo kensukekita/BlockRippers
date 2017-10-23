@@ -87,11 +87,7 @@ const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
-<<<<<<< HEAD
 const char     CRYPTONOTE_NAME[]                             = "BlockRippers";
-=======
-const char     CRYPTONOTE_NAME[]                             = "BlockRippersCoin";
->>>>>>> 743b5f48e1b914053415a0a0bacef84f8d56d432
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
